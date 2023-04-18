@@ -1,7 +1,9 @@
 package com.gosu1902.quizapp
 
 object Constants {
-
+    const val USER_NAME = "user_name"
+    const val TOTAL_QUESTION = "total_question"
+    const val CORRECT_ANSWERS = "correct_answers"
     fun getQuestions(): ArrayList<Question> {
         val questionsList = ArrayList<Question>()
 
